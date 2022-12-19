@@ -1,14 +1,28 @@
 .work{
-    margin-top: 10rem;
-    font-weight: bold;
-    font-size: 3rem;
+    padding-top: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
-.work__contenido{
-    display: flex;
-    justify-content: center;
-    p{
-        margin-top: 90px;
+    justify-items: center;
+   
+    .work_title{
+        text-align: center;
     }
+    .work_contenido{
+        margin: 50px;
+        padding: 50px auto;
+
+        .work_img{
+            width: 400px;
+            height: auto;
+            text-align: center;
+        }
+
+        .work_paragraph{
+            text-align:justify;
+        }
+
+    
+    }
+    
 }

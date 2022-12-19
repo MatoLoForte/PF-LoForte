@@ -1,37 +1,26 @@
-
-.section{
-    padding: 10px;
-
+.sobre_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+   
     .paula{
-        font-weight: bold;
-        font-size: 3rem;
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
-    .paula__contenido{
-        display: flex;
-        justify-content: center;
-        padding-left: 1rem;
+    .paula_contenido{
+        margin: 50px;
+        padding: 50px auto;
 
-        p{
-            padding-right: 1rem;
-            margin-top: 100px;
+        .paula_img{
+            width: 400px;
+            height: auto;
+
         }
-    }
-    .svraka{
-        font-weight: bold;
-        font-size: 3rem;
-        display: flex;
-        justify-content: center;
+        .paula_paragraph{
+            text-align:justify;
+        }
+
+    
     }
     
-    .svraka__contenido{
-        display: flex;
-        justify-content: center;
-        padding-left: 1rem;
-    
-        p{
-            padding-left: 1rem;
-            margin-top: 90px;}
-    }
 }
